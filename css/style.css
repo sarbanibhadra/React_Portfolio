@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+div#root {
+  height: 100%; /* remove this line to see div.app is no more 100% height */
+  background-color:   #e6d8f0;
+  padding: 0 10px;
+}
+
+div.app {
+  height: 100%;
+  background-color: cornsilk;
+}
+
+@media only screen and (max-width: 600px) {
+  #headline {
+    position: static;
+    margin: 20px;
+  }
+  #heroGrid {
+    grid-template-areas:
+    "featuredProduct featuredProduct"
+    "secondaryProduct CTA";
+  }
+  #categoryGrid {
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "bookcases"
+      "bedroom"
+      "patio"
+      "couches"
+      "desks"
+    ;
+  }
+}
+
+@media screen and (max-width: 320px){
+
+  #image-section{
+      width: 100%;
+      height: auto;
+    };
+  
+  .imgBox{
+      max-width: 400px;
+      min-width: 200px;
+    };
+  }
