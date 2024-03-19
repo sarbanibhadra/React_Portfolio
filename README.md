@@ -33,6 +33,8 @@ I have developed the initial scaffolding for my first portfolio site as well as 
   7. [ ] Contact
 # Screenshot
 
+![image](https://github.com/sarbanibhadra/React_Portfolio/assets/28161929/fc94f3f4-23ff-4d9d-a6c1-99bfe04e1916)
+
 # Link to deployed application
 
 https://graceful-meerkat-0a4ac6.netlify.app 
