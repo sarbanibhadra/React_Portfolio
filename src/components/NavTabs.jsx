@@ -6,7 +6,7 @@ function NavTabs() {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink
-          to="about"
+          to="/"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
